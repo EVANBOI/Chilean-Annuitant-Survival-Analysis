@@ -31,4 +31,24 @@ This project analyses the mortality of Chilean Annuitants from 2014 to 2018 with
   - Cubic Splines
   - Smoothing Splines
 
-**Recommended Model:**
+**Recommended Model:** By applying a series of statistical tests, it is deduced that the smoothing splines align most closely the data. 
+
+### Key Findings & Implications
+The graduated unisex mortality rates are consistently underestimating the mortality rates for males and overestimating the mortality rates for females. This observation suggests that graduating unisex mortality rates may not accurately capture the mortality experience.
+
+## Ethical Considerations 
+**Focus:** Analysis of the ethical implications of using gender as a rating factor for annuity pricing. 
+**Pros:**
+- Insurers are able to properly price their insurance products, which ensures sustainability as by disregarding gender insurers would suffer huge losses if unisex life tables were used to price their annuities products as the life tables would consistently overestimate the mortality rates for females which means the insurer would have to pay more benefits.
+- Estimation of mortality rates may be more inaccurate due to the inability to consider gender-based diseases.
+**Cons:**
+- Under a utilitarian lens, in Chile females on average earn 22% less than males. The pay disparity is unfair as fewer females may have the financial means to afford annuity products thereby hindering their ability to receive adequate pension benefits.
+- Under a deontological perspective, it is morally wrong to penalise females for a factor out their control.
+**Recommendation:** Gender should be used as a rating factor but to provide reassurance to policyholders, it is best to implement legislation similar to "The Anti-Discrimination Act 1977" in New South
+Wales.
+
+## Technical details 
+**Tools Used**
+- R
+
+
