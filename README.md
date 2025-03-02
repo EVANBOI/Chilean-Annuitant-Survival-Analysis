@@ -14,3 +14,21 @@ This project analyses the mortality of Chilean Annuitants from 2014 to 2018 with
 - Potential predictors for future analysis include:
   - Age of the annuitant
   - Gender of the annuitant
+
+### Survival Analysis 
+**Approach:** Application of both semi-parametric and non-parametric techniques, including Cox regression and Kaplan-Meier(KM) estimations to identify the relationships predictors have on mortality rates.
+**Findings:**
+- Survival probability decreases with age
+- Male annuitants and disabled annuitants experience higher mortality rates compared to their female and healthy annuitants respectively
+**Challenges:** Since the covariates change with time, the proportional hazard assumption of the Cox regression model, the results provided by the model maybe an inaccurate representation, thus there is a need to rely on other models.
+
+### Graduation of Unisex Life Table 
+**Methodology:**
+- Calculation of the crude mortality rates.
+- Graduating the mortality rates via various parametric and non-parametric techniques, including:
+ - Gompertz
+ - Makeham
+ - Cubic Splines
+ - Smoothing Splines
+
+**Recommended Model:**
