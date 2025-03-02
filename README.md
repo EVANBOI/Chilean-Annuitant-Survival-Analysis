@@ -26,9 +26,9 @@ This project analyses the mortality of Chilean Annuitants from 2014 to 2018 with
 **Methodology:**
 - Calculation of the crude mortality rates.
 - Graduating the mortality rates via various parametric and non-parametric techniques, including:
- - Gompertz
- - Makeham
- - Cubic Splines
- - Smoothing Splines
+  - Gompertz
+  - Makeham
+  - Cubic Splines
+  - Smoothing Splines
 
 **Recommended Model:**
